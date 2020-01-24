@@ -1,0 +1,1157 @@
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --myblue: #3d88b5;
+    --mygray: rgb(232, 239, 247);
+}
+
+html, body {
+    height: 100%;
+}
+
+.bg-mygray {
+    background-color: var(--mygray) !important;
+}
+
+.text-myblue {
+    color: var(--myblue) !important;
+}
+
+
+.btn-myblue {
+    color: #fff;
+    background-color: var(--myblue);
+    border-color: var(--myblue);
+}
+
+.btn-myblue:hover {
+    color: #fff;
+    background-color: var(--myblue);
+    border-color: var(--myblue);
+}
+
+.btn {
+    padding: 0.375rem 1.5rem;
+    border-radius: 0;
+    font-weight: 500;
+}
+  
+.navbar-brand img {
+    margin-left: -35px;
+}
+
+.navbar-text {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 6.3rem;
+    font-size: 0.85em;
+    display: none;
+}
+
+.navbar-text i {
+    margin-right: 1rem;
+    font-size: 1.5em;
+    margin-top: 0.05rem;
+}
+/* ------------------------------------------------------ */
+#header .jumbotron {
+    background: transparent;
+}
+
+#header .jumbotron h1 {
+    font-size: 2.4em;
+}
+
+#header .jumbotron p {
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+#header .jumbotron img {
+    width: 90%;
+    margin-top: 0.8rem;
+}
+#header {
+    height: 400px;
+    overflow: hidden;
+    border-bottom: 2px solid var(--mygray);
+}
+/* ------------------------------------------------------ */
+#announcement {
+    border-bottom: 2px solid var(--mygray);  
+}
+#announcement .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#announcement .jumbotron h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding: 0 1rem;
+}
+#announcement .jumbotron i {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+#announcement .jumbotron p {
+    padding: 0 1rem;
+}
+/* ------------------------------------------------------ */
+#video {
+    border-bottom: 2px solid var(--mygray);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: auto;  
+}
+#video .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#video .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+#video img {
+    width: 85%;
+    margin-bottom: 2rem;
+    margin-left: 0;
+}
+#video .flexbox {
+    margin: 1rem;
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;  
+}
+#video h5 {
+    font-size: 2rem;
+}
+#video .symbol-image {
+    width: 20%;
+    padding: auto;
+}
+#video p {
+    font-size: 1rem;
+}
+/* ------------------------------------------------------ */
+ #benefits {
+        border-bottom: 2px solid var(--mygray);
+        background-color: #fff;
+        text-align: center;
+        margin-bottom: auto;  
+ }
+ #benefits .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+ }
+ #benefits .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem; 
+}
+#benefits .benefit-image {
+    width: 30%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: auto;
+}
+#benefits .flexbox {
+    margin: 1rem;
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+}
+#benefits .jumbotron h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+ }
+#benefits p {
+    font-size: 1rem;
+}
+/* ------------------------------------------------------ */
+#features {
+    border-bottom: 2px solid var(--mygray);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: auto;  
+}
+#features .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#features .flexbox {
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+}
+#features .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+#features .featuressymbol-image {
+    width: 20%;
+    padding: auto;
+}
+#features .jumbotron h2 {
+    font-size: 2rem;
+}
+#features .jumbotron p {
+    font-size: 1rem;
+}
+#features .features-laptop-image {
+    display: none;
+}
+/* ------------------------------------------------------ */
+#testimonials {
+    border-bottom: 2px solid var(--mygray);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: auto;  
+}
+#testimonials .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#testimonials .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+#testimonials .flexbox {
+    margin: 2rem;
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+}
+#testimonials .jumbotron a {
+    font-size: 2rem;
+    margin-right: 10.5em;
+}
+#testimonials .jumbotron h2 {
+    font-size: 1rem;
+}
+#testimonials .profile-image {
+    display: none;
+}
+#testimonials .profileCeo-image {
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#testimonials .box-arrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#testimonials .box-left {
+    border: 2px solid var(--myblue);
+    width: 10%;
+    position: relative;
+}
+#testimonials .box-right {
+    border: 2px solid var(--myblue); 
+    width: 10%;
+    position: relative;   
+}
+#testimonials .text {
+    display: none;
+}
+/* ------------------------------------------------------ */
+#news {
+    border-bottom: 2px solid var(--mygray);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: auto;  
+}
+#news .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#news .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+#news .news-flexbox {
+    display: flexbox;
+    margin: 2rem;
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+#news .flexbox {
+    
+    padding-top: -1rem; 
+}
+#news .flexbox p {
+    margin-top: -5rem;
+    /* margin-bottom: 2rem; */
+}
+#news img {
+margin-top: -5rem;
+}
+/* ------------------------------------------------------ */
+#plan {
+    border-bottom: 2px solid var(--mygray);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: auto;  
+}
+#plan .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#plan .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+#plan .flexbox {
+    display: flexbox;
+    margin: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+#plan .flexbox img {
+    margin-top: -2rem;
+    justify-content: stretch;
+}
+#plan .planbox1 {
+    border: 2px solid #3d88b5;
+    margin-bottom: 1rem;
+    box-shadow: 1px 2px 3px 4px; 
+    text-decoration: underline;
+}
+#plan .planbox1 img {
+    margin-top: -3rem;
+}
+#plan .planbox1 .btn {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    margin-bottom: -1rem;
+    border-radius: 2em;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+}
+#plan .flexbox i {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+    margin-left: 6rem;
+}
+#plan .planbox2 {
+    justify-items: stretch;
+    background-color: var(--myblue);
+    margin-bottom: 1rem;
+    text-decoration: underline; 
+}
+#plan .planbox2 i {
+    color: white;
+    text-decoration: underline;
+}
+#plan .planbox2 .btn {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    margin-top: 1rem;
+    border-radius: 2em;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+    margin-bottom: 1rem;
+}
+#plan .planbox3 {
+   border: 2px solid #3d88b5;
+   box-shadow: 1px 2px 3px 4px;
+   text-decoration: underline;
+}
+#plan .planbox3 .btn {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    margin-bottom: 1rem;
+    border-radius: 2em;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s; 
+}
+#plan .lakebrett-box {
+    display: flexbox;
+    margin-bottom:2rem;
+    justify-content: space-between;
+}
+#plan .btn-myblue {
+    margin-top: 20rem;
+    justify-items: center;
+    box-shadow: 1px 2px 1px 2px black;
+}
+#myplan .flexbox .fa-check-circle {
+    border: solid 2px black;;
+}
+/* ------------------------------------------------------ */
+#getintouch {
+    border-bottom: 2px solid var(--mygray);
+    background: url(images/map/maps.png);
+    background-size: cover;
+    padding: 2rem 0;
+}
+#getintouch .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#getintouch .map-image {
+    width: 100vh;
+    position: absolute;
+    z-index:-1;
+    top:0;
+    left: 0;
+}
+#getintouch .flexbox {
+    margin: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+#getintouch .jumbotron h1 { 
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+#getintouch .info-box {
+    background: white;
+    padding: 2rem;
+    margin: 1.5rem;
+}
+#getintouch .info-text1 {
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+#getintouch .info-text2 {
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+#getintouch .info-text3 {
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+#getintouch .info-box span {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+} 
+/* ------------------------------------------------------ */
+#mailbox {
+    border-bottom: solid var(--myblack);
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+#mailbox .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#mailbox .flexbox {
+    margin: 2rem;
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+}
+#mailbox .mail-button {
+    display: flex;
+}
+#mailbox .mail-button input  {
+    height: 2.3rem;
+    margin-top: 0.5rem;
+}
+#mailbox .social-network i {
+    margin-top: 1rem;
+}
+/* ------------------------------------------------------ */
+#right-copy {
+    border: 1px solid white;
+    background-color: black;
+}
+#right-copy .flexbox {
+    padding-top: 1rem;
+}
+#right-copy .flexbox p {
+   text-align: center;
+   font-size: 1rem;
+   color: white;
+   padding-bottom: 1rem;
+}
+/* ------------------------------------------------------ */
+@media(min-width: 740px) {
+    #header .jumbotron img {
+        margin-top: 3rem;
+    }   
+    #header {
+        height: 600px;
+    }
+    #features .features-laptop-image   {
+        display: flex;
+        padding-top: 2rem;
+        width: 90%;
+     }
+    #video .flexbox  {        
+        margin: 4.5rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    #video .flexbox p {
+        font-size: 1.2rem;
+    }
+    #video img {
+        width: 60%;
+    }
+    #benefits .flexbox {
+        margin: 4.5rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    #features .flexbox {
+        margin: 4.5rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    #features .features-laptop-image {
+        display: none;
+    }
+
+    #testimonials .flexbox {
+        margin: 4.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    #testimonials .box-left {
+        width: 5%;
+    }
+    #testimonials .box-right {
+        width: 5%;
+    }
+    #testimonials .jumbotron h2 {
+        font-size: 1.5rem;
+    }
+    #testimonials .jumbotron a {
+        margin-left: -22rem;
+    }
+    #news .news-flexbox {
+        margin: 4.5rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    #plan .flexbox {
+        margin: 4.5rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    #plan .planbox1 {
+        margin: 8rem;
+        margin-top: -3rem;
+        padding: 1.5rem;
+    }
+    #plan .planbox1 .btn {
+        margin-top: 1.5rem;
+    }
+    #plan .planbox2 {
+        margin: 8rem;
+        margin-top: -7rem;
+        padding: 1.5rem;
+    }
+    #plan .planbox3 {
+        margin: 8rem;
+        padding: 1.5rem;
+        margin-top: -7rem;
+        margin-bottom: -1rem;
+    }
+    #getintouch .info-box {
+        margin: 10rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    #mailbox {
+        background-color: black;
+    }
+    #mailbox .flexbox {
+        margin: 4.5rem;
+        margin-top: -3rem;
+        margin-bottom: 1rem;
+    }
+    #mailbox .mail-button input {
+        margin-left: 10rem;
+        margin-top: 0;
+    }
+    #mailbox .input {
+        border: 2px solid black;
+    }
+    #right-copy {
+        border: solid white 1px;
+    }
+}
+@media(min-width: 992px) {
+    .navbar-text {
+        display: flex;
+    }
+
+    #header .jumbotron h1 {
+        font-size: 4em;
+    }
+    
+    #header .jumbotron p {
+        font-size: 1.3em;
+    }
+
+    #header {
+        height: 750px;
+    }
+
+    #announcement .jumbotron .container {
+        display: flex;
+    } 
+
+    #announcement .jumbotron i {
+        display: none;  
+    }
+
+    #announcement .jumbotron h1 {
+        flex: 3;
+        text-align: right;
+        font-size: 2rem;
+    }
+
+    #announcement .jumbotron p {
+        flex: 6;
+        text-align: left;
+        margin-top: 0.3rem;
+    }
+    #video .img {
+        width: 15%;
+    }
+    #video .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: -8rem;
+    }
+    #video .pil1 {
+        display: none;
+    }
+    #video .flexbox .pil2 {
+        width: 5%;
+        transform: rotate(270deg);
+    }
+    #video .pil3 {
+        width: 5%;
+        transform: rotate(270deg);
+    }
+    #video .videobox1 {
+        margin-top: 1rem;
+    }
+    #video .videobox1 .symbol-image {
+        margin-top:-4rem;
+        margin-bottom: 3.6rem;
+    } 
+    #video .videobox2 {
+        padding-block: 1rem;
+        margin-block: -1.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: -3.9rem;
+    }
+    #video .videobox3 {
+        padding-block: 1rem;
+        margin-block: -1rem;
+        margin-top: -4rem;
+    }
+    #video h5 {
+     font-size: 3rem;
+    }
+    #benefits .flexbox {
+        display: flex;
+        flex-direction: row;
+    }
+    #benefits p {
+        font-size: 0.5rem;
+    }
+    #features .flexbox {
+        width: 100rem;
+    }
+    #features .flexbox h2 {
+        font-size: 1.5rem;
+        width: 8rem;
+    }
+    #features p {
+        width: 16rem;
+        height: 5rem;
+    }
+    #features .features-laptop-image {
+        display: block;
+        width: 60rem;
+        height: 40rem;
+    }
+    #features .featuressymbol-image {
+        width: 1;
+        margin-left: -23rem;
+    }
+    .featuresbox1 {
+        width: 30rem;
+        height: 15rem;
+        margin-left: -4rem;
+    }
+    .featuresbox2 {
+        width: 30rem;
+        height: 15rem;
+        margin-left: 21rem;
+        margin-top: -15rem;
+    }
+    .featuresbox3 {
+        width: 30rem;
+        height: 15rem;
+        margin-top: -6rem;
+        margin-left: -4rem;
+    }
+    .featuresbox4 {
+        width: 30rem;
+        height: 15rem;
+        margin-left: 21rem;
+        margin-top: -15rem;
+    }
+    .featuresbox5 {
+        width: 30rem;
+        height: 15rem;
+        margin-top: -6rem;
+        margin-left: -4rem;
+    }
+    .featuresbox6 {
+        width: 30rem;
+        height: 15rem;
+        margin-left: 21rem;
+        margin-top: -15rem;
+    }
+    .feature-content {
+        width: 25rem;
+        height: 7rem;
+        margin-left: 8rem;
+        margin-top: -5rem;
+    }
+    .content-right { 
+        overflow: hidden;
+        width: 13rem;
+        height: 40rem;
+        margin-top: -40rem;
+        margin-left: 50rem;
+        z-index: 1;
+    }    
+    #testimonials .profileCeo-image {
+        display: none;
+    }
+    #testimonials .profilebox .profile-image {
+        display: block;
+        width: 20rem;
+        height: 20rem;
+        margin-left: 35rem;
+        margin-top: -12.5rem;
+    }
+    #testimonials .flexbox .small-text {
+        font-size: 1.5rem;
+        width: 25rem;
+        height: 12rem;
+        margin-left: 4rem
+    }
+    #testimonials .text {
+        display: block;
+        display: flex;
+        width: 15rem;
+        flex-direction: column;
+        margin-left: 4rem;
+        margin-top: -5rem;
+    }
+     .text p1 {
+        font-size: 1.3rem;
+        font-weight: 600; 
+    }
+    #testimonials .box-arrow {
+        margin-left: 8rem;
+        margin-top: -2rem;
+    }
+    #testimonials .box-arrow i {
+    font-size: 2rem;
+    }
+    #testimonials .box-left {
+        width: 2rem;
+        height: 2rem;
+    }
+    #testimonials .box-right {
+        width: 2rem;
+        height: 2rem;
+    }
+     #testimonials .citat {
+        width: 4rem; 
+        height: 5rem;
+        margin-left: 31rem;
+        margin-bottom: -2.6rem;
+    }
+    #testimonials .citat .fa-quote-left {
+        font-size: 4rem;
+        opacity: 0.5;
+    }
+    #news .news-flexbox {
+        display: flex;
+    }
+    #news .flexbox {
+        width: 20rem;
+        height: 10rem;
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #news .flexbox img {
+        width: 15rem;
+        height: 10rem;
+        margin-top: -10rem;
+        margin-bottom: -3rem;
+    }
+    #news .flexbox p {
+        font-size: 1rem;
+        width: 10rem;
+        height: 2rem;
+        margin-left: 3rem;
+        margin-top: -1rem;
+    } 
+    #plan .flexbox {
+        display: flex;
+        justify-content: flex-end;
+        padding: auto;
+        margin: auto;
+    }
+    #plan .planbox1 {
+        width: 20rem;
+        height: 32rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+    #plan .planbox1 .btn {
+        margin-bottom: -12rem;
+    }
+    #plan .planbox2 {
+        border: solid black 2px;
+        width: 21rem;
+        height: 33rem;
+        margin-left: -8rem;
+        margin-right: -8rem;
+        margin-top: 1.5rem;
+    }
+    #plan .planbox2 .btn {
+        margin-bottom: -8.5rem;
+    }
+    #plan .planbox3 {
+        width: 20rem;
+        height: 32rem;
+        margin-right: 6rem;
+        margin-top: 2rem;
+    }
+    #plan .planbox3 .btn {
+        margin-bottom: -9rem;
+    }
+    #plan .planbox2 .info-box {
+        margin-bottom: 2rem;
+    }
+    /* #plan .planbox1 .btn-myblue {
+        border: solid 2px black;
+        margin-top: 20rem; */
+    
+    #plan .lakebrett-box i {
+       margin-left: 2rem;
+    }
+    #mailbox .mail-button {
+        margin-left: 6rem;
+
+    }
+}
+@media(min-width: 1200px) {
+    #header {
+        height: 850px;
+    }  
+    #video img {
+        width: 45%;
+    }
+    #video .symbol-image {
+        width: 15%;  
+    }
+     #video .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: -8rem;
+    } 
+    #video .pil1 {
+        display: none;
+    }
+    #video .flexbox .pil2 {
+        width: 5%;
+        transform: rotate(270deg);
+    }
+    #video .pil3 {
+        width: 5%;
+        transform: rotate(270deg);
+    }
+    #video .videobox1 {
+        padding-block: 1rem;
+        margin-block: 6rem;
+        padding-top: 2.8rem;
+    }
+    #video .videobox1 .symbol-image {
+        margin-top:-2rem;
+        margin-bottom: 3.6rem;
+    } 
+    #video .videobox2 {
+        padding-block: 1rem;
+        margin-block: 6rem;
+    }
+    #video .videobox3 {
+        padding-block: 1rem;
+        margin-block: 6rem
+    }
+    #video h5 {
+        font-size: 3rem;
+    }
+    #benefits .flexbox {
+        display: flex;
+        flex-direction: row;
+    }
+    #benefits p {
+        font-size: 1rem;
+    }
+    #features .features-laptop-image {
+        display: block;
+        width: 100rem;
+        height: 60rem;
+    }
+    #features .featuressymbol-image {
+        width: 25%;
+        margin-left: -20rem;
+    }
+    .featuresbox1 {
+        width: 30rem;
+        height: 15rem;
+    }
+    .featuresbox2 {
+        width: 30rem;
+        height: 15rem;
+        margin-left: 30rem;
+        margin-top: -15rem;
+    }
+    .featuresbox3 {
+        width: 30rem;
+        height: 15rem;
+        margin-top: 4rem;
+    }
+    .featuresbox4 {
+        width: 30rem;
+        height: 15rem;
+        margin-left: 30rem;
+        margin-top: -15rem;
+    }
+    .featuresbox5 {
+        width: 30rem;
+        height: 15rem;
+        margin-top: 4rem;
+    }
+    .featuresbox6 {
+        width: 30rem;
+        height: 15rem;
+        margin-left: 30rem;
+        margin-top: -15rem;
+    }
+    .feature-content {
+        width: 25rem;
+        height: 7rem;
+        margin-left: 9rem;
+        margin-top: -5rem;
+    }
+    .content-right {
+        overflow: hidden;
+        width: 55rem;
+        height: 65rem;
+        margin-left: 70rem;
+        margin-top: -55rem;
+        z-index: 1;
+    }
+    #testimonials .profileCeo-image {
+        display: none;
+    }
+    #testimonials .profilebox .profile-image {
+        display: block;
+        width: 30rem;
+        height: 30rem;
+        margin-left: 70rem;
+        margin-top: -20.5rem;
+    }
+    #testimonials .flexbox .small-text {
+        font-size: 2.3rem;
+        width: 35rem;
+        height: 20rem;
+        margin-top: 5rem;
+        margin-left: 20rem
+    }
+    #testimonials .text {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20rem;
+        margin-top: -8rem;
+    }
+     .text p1 {
+        font-size: 2rem;
+        font-weight: 600; 
+    }
+    #testimonials .box-arrow {
+        margin-left: 18rem;
+    }
+    #testimonials .box-arrow i {
+    font-size: 2rem;
+    }
+    #testimonials .box-left {
+        width: 2rem;
+        height: 2rem;
+    }
+    #testimonials .box-right {
+        width: 2rem;
+        height: 2rem;
+    }
+    #testimonails a {
+        width: 40%;
+    }
+     #testimonials .citat {
+        width: 4rem; 
+        height: 5rem;
+        margin-left: 48rem;
+        margin-bottom: -4.6rem;
+    }
+    #testimonials .citat .fa-quote-left {
+        font-size: 6rem;
+        opacity: 0.5;
+    }
+    #news .news-flexbox {
+        display: flex;
+    }
+    #news .flexbox {
+        width: 30rem;
+        height: 15rem;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #news .flexbox img {
+        width: 25rem;
+        height: 25rem;
+        margin-top: -10rem;
+        margin-bottom: -3rem;
+    }
+    #news .flexbox p {
+        font-size: 1.3rem;
+        width: 17rem;
+        height: 2rem;
+        margin-left: 7rem;
+    }
+    #plan .flexbox {
+        display: flex;
+        justify-content: flex-end;
+        padding: auto;
+        margin: auto;
+    }
+    #plan .planbox1 {
+        width: 20rem;
+        height: 32rem;
+        margin-left: rem;
+        margin-top: 2rem;
+    }
+    #plan .planbox2 {
+        width: 21rem;
+        height: 33rem;
+        margin-left: -8rem;
+        margin-right: -8rem;
+        margin-top: 1.5rem;
+    }
+    #plan .planbox3 {
+        width: 20rem;
+        height: 32rem;
+        margin-right: 29rem;
+        margin-top: 2rem;
+    }
+    #getintouch .flexbox h1 {
+        height: 20rem;
+        margin-left: -20rem;
+        margin-top: 15rem;
+    }   
+    #getintouch {
+        margin-top: 6rem;
+        margin-bottom: -8rem;
+        width: 100rem;
+        margin-left: 10rem;
+    }
+    #getintouch .info-box {
+        width: 28rem;
+        height: 25rem;
+        margin-left: 55rem;
+        margin-top: -30rem;
+    }
+    #getintouch .info-box p { 
+        margin-top: 3rem;
+        font-size: 1.5rem;
+    }
+    #getintouch ul {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+    #mailbox {
+        height: 30rem;
+        margin-top: 14rem;
+        background-color: black;
+    }
+    #mailbox img {
+        width: 30%;
+    }
+    #mailbox .flexbox {
+        border: solid 2px black;
+        width: 80rem;
+        margin-left: 20rem;
+    }
+    #mailbox .flexbox p {
+        font-size: 1.5rem;
+        width: 50rem;
+        margin-left: 12rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    #mailbox .flexbox .mail-button {
+        margin-left: 20rem;
+    }
+    #right-copy {
+        border: solid white 4px;
+    }
+}
